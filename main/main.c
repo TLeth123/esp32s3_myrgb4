@@ -43,10 +43,7 @@ void app_main(void)
 {
     lvgl_driver_init(); // 初始化液晶驱动
     // lv_demo_benchmark();
-    // ui_init();
-    // ui_init();
-    // ui_init();
-    // ui_init();
+
     ui_init();
 
     ui_init();
