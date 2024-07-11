@@ -1,0 +1,32 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.adapterTargetName": "esp32s3",
+    "idf.customExtraPaths": "d:\\esp32_idf_tool\\Espressif514\\tools\\xtensa-esp-elf-gdb\\12.1_20231023\\xtensa-esp-elf-gdb\\bin;d:\\esp32_idf_tool\\Espressif514\\tools\\riscv32-esp-elf-gdb\\12.1_20231023\\riscv32-esp-elf-gdb\\bin;d:\\esp32_idf_tool\\Espressif514\\tools\\xtensa-esp32-elf\\esp-12.2.0_20230208\\xtensa-esp32-elf\\bin;d:\\esp32_idf_tool\\Espressif514\\tools\\xtensa-esp32s2-elf\\esp-12.2.0_20230208\\xtensa-esp32s2-elf\\bin;d:\\esp32_idf_tool\\Espressif514\\tools\\xtensa-esp32s3-elf\\esp-12.2.0_20230208\\xtensa-esp32s3-elf\\bin;d:\\esp32_idf_tool\\Espressif514\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin;d:\\esp32_idf_tool\\Espressif514\\tools\\esp32ulp-elf\\2.35_20220830\\esp32ulp-elf\\bin;d:\\esp32_idf_tool\\Espressif514\\tools\\cmake\\3.24.0\\bin;d:\\esp32_idf_tool\\Espressif514\\tools\\openocd-esp32\\v0.12.0-esp32-20230921\\openocd-esp32\\bin;d:\\esp32_idf_tool\\Espressif514\\tools\\ninja\\1.10.2;d:\\esp32_idf_tool\\Espressif514\\tools\\idf-exe\\1.0.3;d:\\esp32_idf_tool\\Espressif514\\tools\\ccache\\4.8\\ccache-4.8-windows-x86_64;d:\\esp32_idf_tool\\Espressif514\\tools\\dfu-util\\0.11\\dfu-util-0.11-win64;d:\\esp32_idf_tool\\Espressif514\\tools\\esp-rom-elfs\\20230320",
+    "idf.customExtraVars": {
+        "OPENOCD_SCRIPTS": "d:\\esp32_idf_tool\\Espressif514\\tools\\openocd-esp32\\v0.12.0-esp32-20230921/openocd-esp32/share/openocd/scripts",
+        "IDF_CCACHE_ENABLE": "1",
+        "ESP_ROM_ELF_DIR": "d:\\esp32_idf_tool\\Espressif514\\tools\\esp-rom-elfs\\20230320/"
+    },
+    "idf.espIdfPathWin": "d:\\esp32_idf_tool\\Espressif514\\Espressif\\frameworks\\esp-idf-v5.1.4\\v5.1.4\\esp-idf",
+    "idf.openOcdConfigs": [
+        "board/esp32s3-builtin.cfg"
+    ],
+    "idf.pythonBinPathWin": "d:\\esp32_idf_tool\\Espressif514\\python_env\\idf5.1_py3.11_env\\Scripts\\python.exe",
+    "idf.toolsPathWin": "d:\\esp32_idf_tool\\Espressif514",
+    "files.associations": {
+        "lvgl_init.h": "c",
+        "lv_demos.h": "c",
+        "lv_demo_widgets.h": "c",
+        "lcd_init.h": "c",
+        "i2c_lcd.h": "c",
+        "stdio.h": "c",
+        "lvgl.h": "c",
+        "pri.h": "c",
+        "st7701.h": "c",
+        "esp_err.h": "c",
+        "gpio.h": "c",
+        "lv_demo_benchmark.h": "c"
+    },
+    "idf.portWin": "COM8",
+    "idf.flashType": "UART"
+}
