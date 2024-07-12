@@ -43,13 +43,19 @@ void app_main(void)
 {
     lvgl_driver_init(); // 初始化液晶驱动
     // lv_demo_benchmark();
-    ui_init();
-    ui_init();
-    ui_init();
-    ui_init();
-    ui_init();
-    ui_init();
-    ui_init();
+    vTaskDelay((10) / portTICK_PERIOD_MS);
+    vTaskDelay((10) / portTICK_PERIOD_MS);
+    vTaskDelay((10) / portTICK_PERIOD_MS);
+    vTaskDelay((10) / portTICK_PERIOD_MS);
+
+    vTaskDelay((10) / portTICK_PERIOD_MS);
+
+    vTaskDelay((10) / portTICK_PERIOD_MS);
+    vTaskDelay((10) / portTICK_PERIOD_MS);
+
+    vTaskDelay((10) / portTICK_PERIOD_MS);
+    vTaskDelay((10) / portTICK_PERIOD_MS);
+    vTaskDelay((10) / portTICK_PERIOD_MS);
     ui_init();
     ui_init();
     ui_init();
